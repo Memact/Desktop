@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Memact Connector",
+  "version": "1.0",
+  "description": "Sends active tab information to the local Memact engine.",
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:8655/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "images/icon.png"
+  },
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "incognito": "split"
+}

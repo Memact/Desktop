@@ -1,0 +1,5 @@
+{
+  "name": "Memact - Windows Desktop MVP (Simulator)",
+  "description": "A high-fidelity simulator of the Memact Windows desktop MVP, featuring local window activity logging simulation, rule-based activity reconstruction, and a strict 640x360 borderless UI design.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "memact",
+  "private": true,
+  "version": "0.1.0",
+  "main": "electron.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron": "\"./node_modules/electron/dist/electron.exe\" .",
+    "start": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && \\\"./node_modules/electron/dist/electron.exe\\\" .\""
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^8.2.2",
+    "electron": "^31.2.1",
+    "electron-builder": "^25.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "wait-on": "^7.2.0"
+  }
+}
